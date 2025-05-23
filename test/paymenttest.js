@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app');
+const app = require('../api/index.js');
 
 describe('POST /api/v1/payments', () => {
   it('should return 400 if fields are missing', async () => {
